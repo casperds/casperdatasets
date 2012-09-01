@@ -1,0 +1,19 @@
+
+#  All file types and folders to ignore
+
+# files types / extensions
+*.class
+*.jar
+*.lock
+*.html
+
+# specific files
+.DS_Store
+
+# folders
+bin/
+.project
+.metadata
+.settings
+
+
