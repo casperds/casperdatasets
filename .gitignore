@@ -2,10 +2,7 @@
 #  All file types and folders to ignore
 
 # files types / extensions
-*.class
-*.jar
 *.lock
-*.html
 
 # specific files
 .DS_Store
@@ -16,4 +13,7 @@ bin/
 .metadata
 .settings
 
-
+/casperdatasets/.classpath
+/casperdatasets/.project
+/casperdatasets/.settings
+/casperdatasets/target
