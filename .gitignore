@@ -6,6 +6,7 @@
 
 # specific files
 .DS_Store
+Thumbs.db
 
 # folders
 bin/
