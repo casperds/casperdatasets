@@ -15,13 +15,13 @@ The Casper Datasets framework allows a programmer to define a typed, n-dimension
 	</properties>
 
 	<distributionManagement>
-		<!-- override from command line to deploy to local dir, eg: mvn deploy -DaltDeploymentRepository=repo::default::file:repo/releases -->
+		<!-- override from command line to deploy to local dir, eg: mvn deploy -DaltDeploymentRepository=repo::default::file:../repo/releases -->
 		<repository>
 			<id>repo</id>
 			<url>https://raw.github.com/casperds/casperdatasets/develop/repo/releases/</url>
 		</repository>
 		
-		<!-- override from command line to deploy to local dir, eg: mvn deploy -DaltDeploymentRepository=snapshot-repo::default::file:repo/snapshots -->
+		<!-- override from command line to deploy to local dir, eg: mvn deploy -DaltDeploymentRepository=snapshot-repo::default::file:../repo/snapshots -->
 		<snapshotRepository>
 			<id>snapshot-repo</id>
 			<url>https://raw.github.com/casperds/casperdatasets/develop/repo/snapshots/</url>
