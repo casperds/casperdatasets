@@ -7,14 +7,12 @@
 # specific files
 .DS_Store
 Thumbs.db
+.classpath
+.project
 
 # folders
 bin/
-.project
 .metadata
 .settings
-
-/casperdatasets/.classpath
-/casperdatasets/.project
-/casperdatasets/.settings
-/casperdatasets/target
+target
+.classpath
