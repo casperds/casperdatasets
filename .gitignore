@@ -2,18 +2,17 @@
 #  All file types and folders to ignore
 
 # files types / extensions
-*.class
-*.jar
 *.lock
-*.html
 
 # specific files
 .DS_Store
+Thumbs.db
+.classpath
+.project
 
 # folders
 bin/
-.project
 .metadata
 .settings
-
-
+target
+.classpath
